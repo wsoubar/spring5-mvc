@@ -19,7 +19,7 @@ public class IndexController {
         logger.debug("debug logging");
         logger.info("info logging");
         logger.warn("warning logging");
-        logger.error("error logging", new RuntimeException("help"));		
+        //logger.error("error logging", new RuntimeException("help"));		
 		
 		return "index";
 	}
