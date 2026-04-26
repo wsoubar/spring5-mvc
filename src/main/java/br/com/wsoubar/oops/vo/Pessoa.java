@@ -37,6 +37,14 @@ public class Pessoa {
 	public void setIdade(Integer idade) {
 		this.idade = idade;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "Pessoa{" +
+				"nome='" + nome + '\'' +
+				", sobrenome='" + sobrenome + '\'' +
+				", idade=" + idade +
+				'}';
+	}
 
 }
